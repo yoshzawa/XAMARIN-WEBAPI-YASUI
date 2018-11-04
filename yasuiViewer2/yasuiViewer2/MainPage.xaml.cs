@@ -44,9 +44,6 @@ namespace yasuiViewer2
                 Label ItemJan = getItemJan(i);
                 stacks.Children.Add(ItemJan);
 
-                Label ItemJan = getItemJan(i);
-                stacks.Children.Add(ItemJan);
-
                 Label ItemUrl = getItemUrl(i);
                 stacks.Children.Add(ItemUrl);
 
