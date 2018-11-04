@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="yasuiViewer2.ViewProduct">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Text="https://h30jsonkadai.fivepro.xyz/yasui" IsEnabled="False"/>
+            <Button Text="Reload" x:Name="ButtonReload"/>
+            <WebView Source="https://h30jsonkadai.fivepro.xyz/yasui" x:Name="WebViewProduct"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

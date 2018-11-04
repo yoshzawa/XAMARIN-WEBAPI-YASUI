@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mypages="clr-namespace:yasuiViewer2;assembly=yasuiViewer2"
+             xmlns:local="clr-namespace:yasuiViewer2"
+             x:Class="yasuiViewer2.TabbedPage1">
+    
+  <!--Pages can be added as references or inline-->
+    <TabbedPage.Children>
+        <mypages:MainPage Title="Main"/>
+        <mypages:ViewProduct Title="AllProduct"/>
+
+
+    </TabbedPage.Children>
+    
+
+</TabbedPage>

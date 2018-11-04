@@ -6,9 +6,24 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="最安値ビュアー" 
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+               />
+        <Entry Placeholder="JANコードを入力" x:Name="janCode"/>
+        <StackLayout Orientation="Horizontal">
+            <Entry Placeholder="URLを入力" x:Name="Url" Text="https://h30jsonkadai.fivepro.xyz"/>
+            <Label Text="/yasui/getPrice?JAN=xxx" />
+        </StackLayout>
+        <Button Text="検索" x:Name="ButtonFind"/>
+        <Button Text="URLをお手本サイトに戻す" x:Name="ButtonResetUrl"/>
+        <ScrollView Orientation="Vertical">
+            <ContentView x:Name="workArea">
+                <Label Text="まだ検索されていません" 
+           HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand"
+               />
+            </ContentView>
+        </ScrollView>
     </StackLayout>
 
 </ContentPage>
