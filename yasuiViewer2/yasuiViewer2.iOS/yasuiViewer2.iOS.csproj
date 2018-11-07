@@ -85,7 +85,9 @@
     <CodesignResourceRules />
     <MtouchDebug>true</MtouchDebug>
     <IOSDebugOverWiFi>true</IOSDebugOverWiFi>
-    <MtouchSdkVersion>12.0</MtouchSdkVersion>
+    <MtouchSdkVersion>
+    </MtouchSdkVersion>
+    <MtouchFastDev>true</MtouchFastDev>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
     <DebugType>none</DebugType>
