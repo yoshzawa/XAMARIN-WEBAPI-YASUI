@@ -25,7 +25,8 @@ namespace yasuiViewer2
 
             HttpClient client = new HttpClient();
             string urlText = Url.Text + "/yasui/getPrice?JAN=" + janCode.Text;
-//            janCode.Text = urlText;
+            //            janCode.Text = urlText;
+            await DisplayAlert("yasui", urlText, "OK");
             var result = await client.GetAsync(urlText);
             if (result.IsSuccessStatusCode)
             {
